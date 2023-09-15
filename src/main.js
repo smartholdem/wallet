@@ -8,6 +8,7 @@ import App from "./App.vue";
 import router from "./routes/router";
 import i18n from "./i18n";
 import "./registerServiceWorker";
+import store from './store'
 // plugin setup
 Vue.use(DashboardPlugin);
 Vue.use(VueRouter);
@@ -18,5 +19,6 @@ new Vue({
   el: "#app",
   render: (h) => h(App),
   router,
-  i18n,
+  store,
+  i18n
 });
