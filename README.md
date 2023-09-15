@@ -1,2 +1,2 @@
-# wallet
-Wallet for SmartHoldem blockchain 
+# Wallet for SmartHoldem blockchain
+
